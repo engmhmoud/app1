@@ -91,7 +91,7 @@ class _AddNewUserState extends State<AddNewUser> {
                   Card(color: Colors.blueGrey[100],
                                       child: Container(
                       child: TextField(
-                        controller: _passwordController,
+                        controller: _passwordController, obscureText: true,
                       ),
                       width: 125,
                     ),
